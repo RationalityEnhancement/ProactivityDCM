@@ -3,7 +3,7 @@ Our goal is to propose and evaluate a formal model of meta-control decisions in 
 
 ## What this repository contain
 In this repository, you will find the code used to fit the data and generate predictions for AX-CPT tasks based on different models. 
-A detailed example with how to fit the data and how the predictions were generate for Maki data XXXX can be found in the matlab live script *"Maki_DMC_model.mlx"*.
+A detailed example with how to fit the data and how the predictions were generate for Mäki-Marttunen et al. (2019) can be found in the matlab live script *"Maki_DMC_model.mlx"*.
 the function **fitMetaControlModel** (*functions/fitMetaControlModel.m*) can be used to fit different models. It can also be easily adapted to fit new models. Each model has its own No-Go variant. 
 
 The functions **MeasureGoalDirectedness** (*functions/MeasureGoalDirectedness.m*) and **MeasureReactivity** (*functions/Reactivity.m*) measure the distance between the observed accuracies and the predicted accuracies with a complete goal-directed or reactive strategy, respectively.
